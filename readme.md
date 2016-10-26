@@ -26,5 +26,7 @@ get an error
 # Action Creator: javascript function which returns with an action
 - export many thing, then just use the export without default; it can be imported
 with import * as from ...
+# MapStateToProps:
+- gets called whenever to component state changes and component will rerender
 # LayoutAnimation
 - any element which is moving, it will be nice (fadeIn, fadeOut)

@@ -8,6 +8,7 @@ import LibraryList from './components/LibraryList'
 
 const App = () => {
     return (
+        // Facilitating communication between redux and react
         <Provider store={createStore(reducers)}>
             <View style={{ flex: 1 }}>
                 <Header headerText="TechStack" />
