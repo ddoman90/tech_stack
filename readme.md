@@ -22,7 +22,8 @@
 - in a reducer you always have to return with a value. If undefined, you will
 get an error
 
-# Action Creator: javascript function which returns with an action
+# Action Creator:
+- javascript function which returns with an action
 - export many thing, then just use the export without default; it can be imported
 with import * as from ...
 
