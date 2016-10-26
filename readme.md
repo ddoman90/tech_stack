@@ -13,16 +13,21 @@
 - each reducer goes to separate file
 - reducers produce application states
 - Connect helper -> Connect Component to the Redux store
+
 # ListView:
 - ListView always creates just a visible amount of listItem
 - when scrolling, it just swaps the content of the components
+
 # Reducer:
 - in a reducer you always have to return with a value. If undefined, you will
 get an error
+
 # Action Creator: javascript function which returns with an action
 - export many thing, then just use the export without default; it can be imported
 with import * as from ...
+
 # MapStateToProps:
 - gets called whenever to component state changes and component will rerender
+
 # LayoutAnimation
 - any element which is moving, it will be nice (fadeIn, fadeOut)
