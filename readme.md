@@ -9,11 +9,7 @@
 - thats why we have to import redux and react-redux
 - react-redux: communication glue between react and redux
 - Provider Component only can have a single component
-- types of reducers in the project:
--- Library reducers
---- [{id:1, name: 'React'}, {id:2, name: 'Redux'}]
--- Selection reducer:
---- 1
+- types of reducers in the project: Library reducers, Selection reducer
 - each reducer goes to separate file
 - reducers produce application states
 - Connect helper -> Connect Component to the Redux store
